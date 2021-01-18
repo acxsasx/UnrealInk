@@ -16,6 +16,6 @@ class INK_API UStoryAsset : public UObject
 public:
 	UStoryAsset();
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ink")
 	FString CompiledStory;
 };

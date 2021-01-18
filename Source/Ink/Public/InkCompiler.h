@@ -15,6 +15,6 @@ public:
 
 	static UInkCompiler* NewInkCompiler(FString inkFileContents, FString inkFileName);
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "Ink")
 	FString CompileToJson();
 };
